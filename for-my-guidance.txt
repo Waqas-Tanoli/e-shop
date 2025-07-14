@@ -1,0 +1,20 @@
+*** Step no 1 ***
+I created workspace with nx for monorepo architecture.
+
+*** Step no 2 ***
+I installed express in workspace and named it as api-gateway
+
+*** Step no 3 ***
+Then I did this in package.json so i can run all the available services
+
+ "scripts": {
+    "dev": "npx nx run-many --target=serve --all"
+  },
+
+  *** Step no 4 ***
+  after this i installed express-http-proxy , this is an express middleware to proxy request to another host and pass back response to the original caller. 
+  // matlab k ham jo b service bana rahy hen like api-gateway , auth-serice etc wo sab ak port laiti hen like 6000,6001... , so in sab ports ko ikatha kr k aik e jagha run krny k liy express-http-proxy ko use kren gy
+
+
+What is Morgan?
+Answer: morgan is a logging middleware for Node.js/Express apps, primarily used to log HTTP requests. morgan logs details about incoming HTTP requests in your Express app (like method, URL, status, response time, etc.)
