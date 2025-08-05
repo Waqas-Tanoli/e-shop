@@ -18,3 +18,11 @@ Then I did this in package.json so i can run all the available services
 
 What is Morgan?
 Answer: morgan is a logging middleware for Node.js/Express apps, primarily used to log HTTP requests. morgan logs details about incoming HTTP requests in your Express app (like method, URL, status, response time, etc.)
+
+If we get an error port already use , then we can run this command in terminal to kill that port and fix the error
+
+npx kill-port 6060 or any port which cause the error
+
+*** Step no 5 ***
+After this i created packages folder in root dir and in packages folder i created error-handler folder -> error-middleware.ts and index.ts
+index.ts contains all error logics, classes etc and i define classses for erros , common errors etc.
