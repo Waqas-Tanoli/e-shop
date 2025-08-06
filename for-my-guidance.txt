@@ -26,3 +26,26 @@ npx kill-port 6060 or any port which cause the error
 *** Step no 5 ***
 After this i created packages folder in root dir and in packages folder i created error-handler folder -> error-middleware.ts and index.ts
 index.ts contains all error logics, classes etc and i define classses for erros , common errors etc.
+
+After this i added mongodb uri to .env file. and i installed npm i prisma @prisma/client
+
+✅ What is Prisma?
+Prisma is an open-source next-generation ORM (Object-Relational Mapping) tool for Node.js and TypeScript. It provides a way to interact with your database using TypeScript/JavaScript code, instead of writing raw SQL queries.
+
+💡 What is Prisma Used For?
+Prisma is mainly used to:
+
+Model your database schema in a readable .prisma file
+
+Generate a type-safe client (called Prisma Client) to run queries like:
+
+findMany, create, update, delete, etc.
+
+Migrate your database easily with CLI commands
+
+Maintain consistency across your code and database using type safety.
+
+💻 What is Prisma Client?
+Prisma Client is the auto-generated, type-safe JavaScript/TypeScript library that Prisma creates based on your models.
+
+You use it to query your database
