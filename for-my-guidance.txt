@@ -49,3 +49,5 @@ Maintain consistency across your code and database using type safety.
 Prisma Client is the auto-generated, type-safe JavaScript/TypeScript library that Prisma creates based on your models.
 
 You use it to query your database
+
+is k bad ma ny schema.prisma ma aik user model banayam us k bad ma ny auth service waly folder ma mojood controller folder ma auth-controller.ts file bnae jis ma ma auth related sari logic likhunga usi k sath sath ma nay utils waly folder ma auth-helper.ts k name sy file bnae jis ma helper function likhunga
